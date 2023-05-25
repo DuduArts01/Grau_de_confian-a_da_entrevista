@@ -12,17 +12,39 @@ n = int(input("Quantidade de pessoas entrevistadas: "))
 n0 = (N * n) / (N - n)
 #formula inicial --> n = (N * n0) / (N + n0)
 
-
-
 α	 = 1/ n0
 #formula inicial --> n0 = 1 / α
 
-
-
 γ	= 1 - α
-
 #formula inicial α = 1 - γ
 
-print("---------------------------")
+print("-------------------------------------")
 print(f"\nGrau de confiança é {γ}\n")
-print("---------------------------")
+print("-------------------------------------")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
