@@ -14,12 +14,8 @@ n = int(input("Quantidade de pessoas entrevistadas: "))
 n0 = (N * n) / (N - n)
 #formula inicial --> n = (N * n0) / (N + n0)
 
-print(f"\nn0 = {n0}")
-
 α	 = math.sqrt(1 / n0)
 #formula inicial --> n0 = 1 / α
-
-print(f"\nα = {α}")
 
 γ	= 1 - α
 #formula inicial α = 1 - γ
