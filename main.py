@@ -1,3 +1,4 @@
+
 # N (população de alunos na escola)
 # n (Tamanho da amostra, quantidade de pessoas entrevistadas)
 # n0 (Tamanho inicial da amostra com erro incluso)
@@ -19,8 +20,58 @@ n0 = (N * n) / (N - n)
 #formula inicial α = 1 - γ
 
 print("-------------------------------------")
-print(f"\nGrau de confiança é {γ}\n")
+print(f"\nGrau de confiança é {(γ * 100):.2f}%\n")
 print("-------------------------------------")
+#multiplica o γ por 100 para dar em porcentagem 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
